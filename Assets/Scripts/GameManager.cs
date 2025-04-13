@@ -205,8 +205,8 @@ public class GameManager : MonoBehaviour
     {
         totalTimer -= Time.deltaTime;
         rTimer -= Time.deltaTime;
-        totalTimerText.SetText($"Remaining total time: \n{totalTimer}");
-        roundTimerText.SetText($"Remaining round time: \n{rTimer}");
+        totalTimerText.SetText($"Remaining total time: \n{(int)totalTimer}");
+        roundTimerText.SetText($"Remaining round time: \n{(int)rTimer}");
         if (rTimer < 0)
         {
             if (selectedCard1 != null)
