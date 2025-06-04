@@ -48,21 +48,21 @@ public class GameManager : MonoBehaviour
     float totalTimer = 300;
 
     [SerializeField]
-    TextMeshPro totalTimerText;
+    TMP_Text totalTimerText;
 
     [SerializeField]
     [Range (0f,30f)]
     float roundTimer = 30;
 
     [SerializeField]
-    TextMeshPro roundTimerText;
+    TMP_Text roundTimerText;
 
     [SerializeField]
     [Range(0, 30)]
     int lives;
 
     [SerializeField]
-    TextMeshPro livesText;
+    TMP_Text livesText;
 
     [SerializeField]
     AudioSource matchedPairAudioSource;
